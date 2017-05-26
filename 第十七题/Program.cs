@@ -4,18 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 第十题
+namespace 第十七题
 {
     class Program
     {
         static void Main(string[] args)
         {
-            #region 10.将字符串“-index0-index1-index2-”截头去尾。
+            #region 17．已知 一个整数123，和一个字符串“123”，比较并输出结果。
 
-            string str = "-index0-index1-index2-";
-            //去除字符串来两端的内容
-            string s= str.Trim('-');
-            Console.WriteLine(s);
+            int num = 123;
+            string str = "123";
+            
+            Console.WriteLine(str.Equals(num));
+
             Console.ReadKey();
 
             #endregion

@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 第十题
+namespace 第十六题
 {
     class Program
     {
         static void Main(string[] args)
         {
-            #region 10.将字符串“-index0-index1-index2-”截头去尾。
+            #region 16.将字符串“2017-02-14”转化为日期类型。
 
-            string str = "-index0-index1-index2-";
-            //去除字符串来两端的内容
-            string s= str.Trim('-');
-            Console.WriteLine(s);
+            string date = "2017-02-14";
+            DateTime dt = Convert.ToDateTime(date);
+            Console.WriteLine(dt);
             Console.ReadKey();
+
 
             #endregion
         }

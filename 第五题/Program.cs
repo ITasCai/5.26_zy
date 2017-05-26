@@ -18,7 +18,7 @@ namespace 第五题
 
 
     
-            //获取当前吃的小时
+            //获取当前的小时
             int newHour= da.Hour;
 
             //判断时间用于输出不同的内容
